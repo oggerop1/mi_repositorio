@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
 }
 
 /*Smartphone*/
@@ -26,7 +27,15 @@ header div{
     width: 100px;
     height: auto;
     margin-left: 10px;
+   /* transform: rotate(45deg);
+   transform: skew(45deg);
+   transform: matrix(0.5, 0.1, 0.5, 1, 10, -2);*/
+
+   -webkit-transition: 1s linear;
+   transition: 1s linear;
 }
+
+
 
 header .btn-nav{
     width: 40px;
@@ -50,6 +59,7 @@ footer{
    background-color: black;
    color: white;
    margin-top: 20px;
+
 }
 .foo-cab{
     display: flex;
@@ -61,6 +71,8 @@ footer{
     width: 200px;
     height: auto;
 }
+
+
 
 .foo-redes button i{
     width: 30px;
@@ -182,6 +194,9 @@ footer{
       text-align: center;
 }
 
+.container{
+    background: linear-gradient( rgb(228, 228, 235), white);
+}
 /*fin Areas main index*/
 
 
@@ -281,6 +296,11 @@ header div{
     margin-left: 50px;
 }
 
+.logo :hover{
+    -webkit-transform: scale(.5);
+    transform: scale(.5);
+  }
+
 header .btn-nav{
     width: 50px;
     height: 50px;
@@ -319,6 +339,11 @@ footer{
     width: 200px;
     height: auto;
 }
+
+.foo-logo img:hover{
+    -webkit-transform: translate(10%);
+    transform: translate(10%);
+  }
 
 .foo-redes button i{
     width: 30px;
@@ -425,6 +450,10 @@ header div{
     margin-left: 50px;
 }
 
+.logo :hover{
+    -webkit-transform: scale(.5);
+    transform: scale(.5);
+  }
 header .btn-nav{
     width: 50px;
     height: 50px;
@@ -463,6 +492,11 @@ footer{
     width: 200px;
     height: auto;
 }
+
+.foo-logo img:hover{
+    -webkit-transform: translate(10%);
+    transform: translate(10%);
+  }
 
 .foo-redes button i{
     width: 30px;
