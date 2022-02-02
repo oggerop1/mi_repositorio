@@ -1,0 +1,544 @@
+/*Estilos generales*/
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/*Smartphone*/
+
+/*Header flex*/
+header{
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+
+   
+}
+
+header div{
+    width: 30%;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.logo{
+    width: 100px;
+    height: auto;
+    margin-left: 10px;
+}
+
+header .btn-nav{
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+ 
+}
+
+.btn-navbar-cotizar{
+    visibility: hidden;
+  
+}
+
+/*fin header*/
+
+/*footer*/
+footer{
+   height: auto;
+   margin: 0px auto;
+   background-color: black;
+   color: white;
+   margin-top: 20px;
+}
+.foo-cab{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content:center;
+}
+.foo-logo img{
+    width: 200px;
+    height: auto;
+}
+
+.foo-redes button i{
+    width: 30px;
+    height: 30px;
+    border: none;
+    font-size: 30px;
+  
+}
+
+
+.foo-enlaces{
+    display:flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    margin: 10px;
+}
+.foo-enlaces a{
+    text-decoration: none;
+    color: rgb(172, 163, 163);
+}
+/*fin footer*/
+
+/*Grid: main index*/
+.container{
+    display: grid;
+    grid-template-areas:  "img1" 
+                          "text-bot" 
+                          "img2"
+                          "text-img"
+                          "text2"
+                          "img3"
+                          "img6" 
+                          "img4" 
+                          "img5"
+                          "img7";
+                          
+    grid-template-columns: 100%;
+    grid-template-rows: 1fr 1fr 1/2fr 1fr;
+   
+}
+
+/*Areas: main index*/
+.img1{
+    grid-area: img1;
+    justify-self: center;
+}
+
+
+.texto1{
+    grid-area: text-bot;
+    justify-self: center;
+}
+
+.img2{
+    grid-area: img2;
+    justify-self: center;
+ 
+}
+
+.btn-cotizar{
+    grid-area: text-bot;
+    justify-self: center;
+    height: 50px;
+    
+}
+
+.texto2{
+    grid-area: text-img;
+    justify-self: center;
+}
+
+.img3{
+    grid-area: text-img;
+    justify-self: center;
+}
+
+.texto3{
+    grid-area: text2;
+    justify-self: center;
+}
+
+.img4{
+    grid-area: img3;
+    justify-self: center;
+}
+
+.img5{
+    grid-area: img6;
+    justify-self: center;
+}
+
+.img6{
+    grid-area: img4;
+    justify-self: center;
+}
+
+.img7{
+    grid-area: img5;
+    justify-self: center;
+}
+
+.container img {
+    width: 50%;
+    padding: 20px;
+}
+.container .btn-cotizar{
+    width: 250px;
+    height: 50px;
+    margin-top: 180px;
+}
+
+.container .img3{
+    margin-top: 180px;
+}
+
+.container p{
+      width: 70%;  
+      text-align: center;
+}
+
+/*fin Areas main index*/
+
+
+
+/*Fin main index*/
+
+/*Grid: main preguntas frecuentes*/
+.container-pf{
+    display: grid;
+    grid-template-areas: "texto1"
+                          "texto2"  
+                          "btn-1-pf"
+                          "btn-2-pf"
+                          "btn-3-pf"
+                          "btn-4-pf";
+
+    grid-template-columns: 100%;
+    grid-template-rows: 1/2fr 1/2fr 1/2fr 1/2fr 1/2fr 1/2fr;
+   
+}
+
+/*Areas: preguntas frecuente*/
+
+.texto1-pf{
+    grid-area: texto1;
+    justify-self: center;
+}
+
+.texto2-pf{
+    grid-area: texto2;
+    justify-self: center;
+}
+
+.btn-1-pf{
+    grid-area: btn-1-pf;
+    justify-self: center;
+}
+
+.btn-2-pf{
+    grid-area: btn-2-pf;
+    justify-self: center;
+}
+
+.btn-3-pf{
+    grid-area: btn-3-pf;
+    justify-self: center;
+}
+
+.btn-4-pf{
+    grid-area: btn-4-pf;
+    justify-self: center;
+    
+}
+
+.container-pf button{
+    width: 250px;
+    height: 50px;
+    margin: 8px;
+    
+}
+
+.container-pf a{
+    text-decoration: none;
+}
+
+/*fin preguntas frecuentes*/
+
+
+
+/*********************************************************/
+
+/**********************Table*****************************/
+
+/*********************************************************/
+@media (min-width:480px) and (max-width:1023px){
+
+    /*Header flex*/
+header{
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    height: 120px;
+    margin: 0px auto;
+    background-color: black;
+   
+}
+
+header div{
+    width: 30%;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.logo{
+    width: 200px;
+    height: auto;
+    margin-left: 50px;
+}
+
+header .btn-nav{
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+ 
+}
+
+.btn-navbar-cotizar{
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    margin-left: 460px;
+  
+}
+
+/*fin header*/
+
+/*footer*/
+footer{
+    width: 90%;
+    height: 250px;
+    margin: 0px auto;
+   background-color: black;
+   color: white;
+   margin-top: 20px;
+}
+.foo-cab{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+.foo-logo img{
+    width: 200px;
+    height: auto;
+}
+
+.foo-redes button i{
+    width: 30px;
+    height: 30px;
+    border: none;
+    font-size: 30px;
+   
+}
+
+
+.foo-enlaces{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    margin: 10px;
+}
+.foo-enlaces a{
+    text-decoration: none;
+    color: rgb(172, 163, 163);
+}
+/*fin footer*/
+
+/* grid*/
+/*main index*/
+.container{
+    display: grid;
+    grid-template-areas: "img1 text-bot text-bot img2"
+                          ". text-img text-img ."  
+                          ". text2 text2 ."
+                          "img3 img6 img4 img5";
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1/2fr 1fr;
+    justify-items: center;
+    text-align: center;
+    width: 90%;
+    height: auto;
+    margin: 0px auto;
+   
+}
+
+.container .btn-cotizar{
+    width: 250px;
+    height: 50px;
+    margin-top: 150px;
+    margin-bottom: 20px;
+}
+.container img3{
+    width: 100%;
+}
+
+/*main preguntas frecuentes*/
+.container-pf{
+    display: grid;
+    grid-template-areas: "texto1"
+                          "texto2"  
+                          "btn-1-pf"
+                          "btn-2-pf"
+                          "btn-3-pf"
+                          "btn-4-pf";
+
+    grid-template-columns: 1fr ;
+    grid-template-rows: 1/2fr 1/2fr 1/2fr 1/2fr 1/2fr 1/2fr;
+    justify-items: center;
+    text-align: center;
+    width: 90%;
+    height: auto;
+    margin: 0px auto;
+   
+    grid-row-gap: 10px;
+}
+
+
+}
+
+
+
+/*********************************************************/
+
+/***********************desktop*************************/
+
+/*********************************************************/
+@media only screen and (min-width: 1024px) {
+/*Header flex*/
+header{
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    height: 120px;
+    margin: 0px auto;
+    background-color: black;
+   
+}
+
+header div{
+    width: 30%;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.logo{
+    width: 200px;
+    height: auto;
+    margin-left: 50px;
+}
+
+header .btn-nav{
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+ 
+}
+
+.btn-navbar-cotizar{
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    margin-left: 460px;
+  
+}
+
+/*fin header*/
+
+/*footer*/
+footer{
+    width: 90%;
+    height: 250px;
+    margin: 0px auto;
+   background-color: black;
+   color: white;
+   margin-top: 20px;
+}
+.foo-cab{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+.foo-logo img{
+    width: 200px;
+    height: auto;
+}
+
+.foo-redes button i{
+    width: 30px;
+    height: 30px;
+    border: none;
+    font-size: 30px;
+   
+}
+
+
+.foo-enlaces{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    margin: 10px;
+}
+.foo-enlaces a{
+    text-decoration: none;
+    color: rgb(172, 163, 163);
+}
+/*fin footer*/
+
+/* grid*/
+/*main index*/
+.container{
+    display: grid;
+    grid-template-areas: "img1 text-bot text-bot img2"
+                          ". text-img text-img ."  
+                          ". text2 text2 ."
+                          "img3 img6 img4 img5";
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1/2fr 1fr;
+    justify-items: center;
+    text-align: center;
+    width: 90%;
+    height: auto;
+    margin: 0px auto;
+    
+}
+
+.container p{
+    margin-top: 20px;
+}
+
+
+/*main preguntas frecuentes*/
+.container-pf{
+    display: grid;
+    grid-template-areas: "texto1"
+                          "texto2"  
+                          "btn-1-pf"
+                          "btn-2-pf"
+                          "btn-3-pf"
+                          "btn-4-pf";
+
+    grid-template-columns: 1fr ;
+    grid-template-rows: 1/2fr 1/2fr 1/2fr 1/2fr 1/2fr 1/2fr;
+    justify-items: center;
+    text-align: center;
+    width: 90%;
+    height: auto;
+    margin: 0px auto;
+   
+    grid-row-gap: 10px;
+}
+
+.container-pf button{
+    width: 500px;
+    height: 50px;
+    
+}
+
+
+.container-pf a{
+    text-decoration: none;
+}
+
+}

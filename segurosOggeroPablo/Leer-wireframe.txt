@@ -1,0 +1,47 @@
+Desktop:
+
+raiz
+index.html					-->https://wireframe.cc/z2TOJl
+preguntas-frecuentes.html	-->https://wireframe.cc/5Ex5oV
+contacto.html				-->https://wireframe.cc/3r9IUF						
+						
+carpeta auto:
+auto.html				-->https://wireframe.cc/ubuRu1
+
+busqueda-patente.html 	-->https://wireframe.cc/1iKTmo
+cotizarporMarca.html    -->https://wireframe.cc/QbRu2k
+anio.html				-->https://wireframe.cc/gjG7UX
+modelo.html 			-->https://wireframe.cc/1PN605	
+ceroKm.html				-->https://wireframe.cc/iNxIVG
+ubicacion.html			-->https://wireframe.cc/CmATaD
+nacimiento.html  		-->https://wireframe.cc/wx0Krx
+correo-electronico.html -->https://wireframe.cc/auJKxa
+
+carpeta vida:
+vida.html				-->https://wireframe.cc/wX15VL
+
+carpeta comecio:
+comercio.html			-->https://wireframe.cc/7mHMiG
+
+carpeta Autogestion:
+acceder.html			-->https://wireframe.cc/t6rznN
+
+
+Mobile:
+
+index.html					--> https://wireframe.cc/H2Pq5S
+preguntas-frecuentes.html	--> https://wireframe.cc/PUttS1
+contacto.html				--> https://wireframe.cc/iqKeVm
+acceder.html				--> https://wireframe.cc/5h9gql
+auto.html					--> https://wireframe.cc/qD21t1
+vida.html					--> https://wireframe.cc/rTCUKC
+comercio.html				--> https://wireframe.cc/doUiS2
+
+busqueda-patente.html 	-->
+cotizarporMarca.html    -->
+anio.html				-->
+modelo.html 			-->	
+ceroKm.html				-->
+ubicacion.html			-->
+nacimiento.html  		-->
+correo-electronico.html -->
